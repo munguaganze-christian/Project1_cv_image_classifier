@@ -81,10 +81,10 @@ if uploaded_file is not None:
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        st.image(image, caption="Imag uploaded", use_container_width=True)
+        st.image(image, caption="Imag uploaded", width=True)
     
     with col2:
-        if st.button("🔍 Classify this image", type="primary", use_container_width=True):
+        if st.button("🔍 Classify this image", type="primary",width=True):
             with st.spinner("Analysis in progress ..."):
                 pt_model, tf_model = load_models()
                 
