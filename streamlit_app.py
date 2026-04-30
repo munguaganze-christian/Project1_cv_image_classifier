@@ -71,8 +71,7 @@ def preprocess_tensorflow(img):
 st.title("Project1 : Image Classifier")
 st.caption("Classifying images using PyTorch & TensorFlow • streamlit • By Christian")
 
-st.info("Available classes :")
-st.info("Buildings || forest || glacier || moutain || sea || streat||")
+st.info("Available classes : Buildings || forest || glacier || moutain || sea || streat||")
 
 with st.sidebar:
     st.header("⚙️ Parameters")
