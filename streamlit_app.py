@@ -71,6 +71,9 @@ def preprocess_tensorflow(img):
 st.title("Project1 : Image Classifier")
 st.caption("Classifying images using PyTorch & TensorFlow • streamlit • By Christian")
 
+st.info("Available classes :")
+st.info("Buildings || forest || glacier || moutain || sea || streat||")
+
 with st.sidebar:
     st.header("⚙️ Parameters")
     model_choice = st.radio("Choose the model", ["PyTorch", "TensorFlow"], horizontal=True)
