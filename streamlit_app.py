@@ -16,8 +16,8 @@ from src.config import NUM_CLASSES, CLASS_NAMES, NORMALIZE_MEAN, NORMALIZE_STD
 from src.model_pytorch import create_model_pytorch
 from src.model_tensorflow import create_model_tensorflow
 
-st.info(f"TensorFlow version : {tf.__version__}")
-st.info(f"Keras version : {tf.keras.__version__}")
+#st.info(f"TensorFlow version : {tf.__version__}")
+#st.info(f"Keras version : {tf.keras.__version__}")
 
 # Configuration page
 st.set_page_config(
