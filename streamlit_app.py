@@ -68,7 +68,7 @@ def preprocess_tensorflow(img):
     return np.expand_dims(arr, axis=0)
 
 
-st.title("Project1 : Image Classifier")
+st.title("CV Project1 : Image Classifier")
 st.caption("Classifying images using PyTorch & TensorFlow • streamlit • By Christian")
 
 st.info("Available classes : Buildings || forest || glacier || moutain || sea || streat||")
