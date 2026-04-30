@@ -69,7 +69,7 @@ def preprocess_tensorflow(img):
 
 
 st.title("Project1 : Image Classifier")
-st.caption("Classifying images using PyTorch & TensorFlow • streamlit • Christian")
+st.caption("Classifying images using PyTorch & TensorFlow • streamlit • By Christian")
 
 with st.sidebar:
     st.header("⚙️ Parameters")
